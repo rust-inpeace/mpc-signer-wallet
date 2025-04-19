@@ -59,7 +59,9 @@ pub struct Chain {
 }
 
 #[derive(Deserialize, Serialize, Debug)]
-pub struct FungibleTokenData {}
+pub struct FungibleTokenData {
+    pub address: String
+}
 
 #[derive(Deserialize, Serialize, Debug)]
 pub struct NonFungibleTokenData {}
