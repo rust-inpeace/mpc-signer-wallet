@@ -64,4 +64,6 @@ pub struct FungibleTokenData {
 }
 
 #[derive(Deserialize, Serialize, Debug)]
-pub struct NonFungibleTokenData {}
+pub struct NonFungibleTokenData {
+    pub address: String
+}
